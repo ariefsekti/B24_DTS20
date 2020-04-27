@@ -1,5 +1,4 @@
-@media all and(max-width: 1000px) {
-   /* Tablet */
+@media (max-width: 1000px) {
    .main-tiga {
     width: 50%;
     margin-bottom: 50px;
@@ -16,7 +15,7 @@
 
 @media (max-width: 720px) {
    .main-tiga {
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
   }
   
@@ -27,7 +26,19 @@
   .copy-container h2 {
     font-size: 20px;
   }
+  
+  .header-list {
+    display : none;
+  }
+  
+  .menu-icon {
+    display : block;
+  }
 }
+
+
+
+
 
 /* Untuk Tablets 
 @media (max-width: 1000px) {
